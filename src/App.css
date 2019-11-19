@@ -20,7 +20,7 @@
   background: #e8e8e8;
   border-radius: 4px;
   padding: 10px;
-  width: 600px
+  width: 650px
 }
 
 .todo {
@@ -28,7 +28,7 @@
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   padding: 10px 10px;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 10px;
   border-radius: 3px;
   display: -webkit-box;
@@ -83,19 +83,31 @@ form {
   width: 90%;
   height: 22px;
   border-radius: 4px;
-
+  padding-left: 10px;
+  font-size: 14px;
 }
 
+.input::placeholder {
+  font-size: 14px;
+}
+
+
 .addButton {
-  width: 40px;
-  height: 24px;
+  width: 60px;
+  height: 28px;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background: #209cee;
+  outline-style: none;
 }
 
 .todo div button {
   cursor: pointer;
-  margin-left: 10px
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 5px;
 }
 
 .todo div {
@@ -113,7 +125,6 @@ form {
 }
 
 button:hover {
-  -webkit-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
-
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1)
 }
