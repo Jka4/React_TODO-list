@@ -20,7 +20,7 @@
   background: #e8e8e8;
   border-radius: 4px;
   padding: 10px;
-  width: 650px
+  width: 650px;
 }
 
 .todo {
@@ -54,7 +54,7 @@
   justify-items: flex-start;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 .todo:last-child {
@@ -91,7 +91,6 @@ form {
   font-size: 14px;
 }
 
-
 .addButton {
   width: 60px;
   height: 28px;
@@ -108,6 +107,7 @@ form {
   margin-left: 10px;
   font-size: 14px;
   border-radius: 5px;
+outline: none;
 }
 
 .todo div {
@@ -126,5 +126,23 @@ form {
 
 button:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1)
+  transform: scale(1.1);
+}
+
+.todo_buttons {
+  float: right;
+  align-items: center;
+}
+
+.todo_text {
+  width: 100%;
+  margin: 0;
+}
+
+.check {
+  width: 15px;
+  height: 15px;
+
+  fill: green;
+  margin-left: 10px;
 }

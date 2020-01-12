@@ -1,14 +1,14 @@
 {
-  "name": "TODOlist",
+  "name": "todolist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "2.0.1",
+    "local-storage": "^2.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
-  "homepage": "http://jka4.github.io/TODO-list",
+  "homepage": "http://jka4.github.io/React_TODO-list",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -31,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
